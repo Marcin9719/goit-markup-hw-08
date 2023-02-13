@@ -1,0 +1,165 @@
+
+
+
+.pop-up__overlay {
+  position:fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #ffffff;
+  z-index: 2;
+}
+
+
+.pop-up__overlay.is-open{
+  transform: translate(0);
+  opacity: 1;
+  pointer-events: initial;
+  visibility: visible;
+}
+
+.pop-up__button-close,
+.header__button-open{
+  background: none;
+  border: none;
+  box-shadow: none;
+}
+@media screen and (min-width: 768px) {
+  .pop-up__overlay {
+    display: none;
+  }
+}
+@media screen and (min-width: 1199px) {
+  .pop-up__overlay {
+    display: none;
+  }
+}
+
+.pop-up__item {
+  list-style-type: none;
+  margin-bottom: 36px;
+  
+}
+.pop-up__card{
+   font-weight: 500;
+  font-size: 40px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #212121;
+  text-decoration: none;
+
+
+    &:hover,
+  &:focus {
+    color:#2196f3;
+  
+}
+}
+.pop-up__card--active{
+   font-weight: 500;
+  font-size: 40px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #212121;
+  text-decoration: none;
+
+  &:hover,
+  &:focus {
+    color:#2196f3;
+  }
+}
+
+
+.pop-up__nav{
+padding-top: 48px;
+padding-left: 40px;
+}
+
+.pop-up__contacts {
+  padding-top: 100px;
+
+}
+
+.pop-up__tel {
+  font-weight: 500;
+    font-size: 34px;
+    line-height: 1.18;
+    letter-spacing: .02em;
+    margin-left: 40px;
+    text-align: none;
+    color:#2196f3
+}
+
+.pop-up__mail {
+  font-weight: 500;
+    font-size: 24px;
+    line-height: 28,13px;
+    letter-spacing: .02em;
+    color: #757575;
+    margin-left: 40px;
+    text-decoration: none;
+
+}
+
+
+pop-up__social{
+  list-style-type: none;
+}
+
+.pop-up__button-close{
+margin-left: 85vw;
+margin-top: 21px;
+
+&:hover,
+&focus{
+  fill:#2196f3;
+}}
+
+.menu-conainer__button-open:hover,t
+.menu-conainer__button-open:focus{
+  fill:#2196f3;
+}
+
+.pop-up__list{
+  display:flex;
+  list-style-type: none;
+  flex-direction: row;
+  color: #2196f3;
+  margin-left: 40px;
+  gap:10px;
+
+&:hover,
+&focus{
+  fill:#2196f3;
+ 
+}}
+
+.pop-up__social-instagram,
+.pop-up__social-twitter,
+.pop-up__social-facebook,
+.pop-up__social-linkedin{
+  font-family:"Roboto";
+font-weight: 500;
+font: 18px;
+line-height: 22px;
+text-decoration: none;
+color: #2196f3;
+ text-decoration:none;
+}
+
+.pop-up__social-instagram,
+.pop-up__social-twitter,
+.pop-up__social-facebook{
+  border-right: 1px solid;
+  padding-right: 10px;
+  color: #2196f3;
+
+  &:hover,
+&focus{
+  fill:#2196f3;
+}
+}
+

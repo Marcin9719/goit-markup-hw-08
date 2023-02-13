@@ -1,0 +1,11 @@
+480px, 768px i 1200px
+
+
+banner do poprawki
+overlay js 
+banner buton js
+
+button w banerze
+
+
+lorem rozciągnąć svg na cała długość

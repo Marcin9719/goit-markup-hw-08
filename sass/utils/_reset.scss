@@ -1,0 +1,23 @@
+body {
+    font-family: "Roboto", sans-serif;
+    color: var(--black-color);
+    font-weight: 400;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  
+
+
+  .container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 15px;
+  }
+  
+  .section {
+    padding-block: 74px;
+  }
